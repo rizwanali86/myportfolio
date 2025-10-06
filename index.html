@@ -3,31 +3,172 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Rizwan Ali – Front-End Developer, Web Designer, Freelancer, and Data Entry Specialist.">
+
+    <!----------------===== Style.css Files =====----------------->
     <link rel="stylesheet" href="style.css">
-    <title>portfolio</title>
+    <link rel="stylesheet" href="style-2.css">
+    <!----------------===== Font Awesome CDN =====----------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>portfolio | Rizwan Ali</title>
 </head>
 <body>
+
+    <!----------------===== Nav Bar =====----------------->
     <header class="header">
         <div class="logo">
            <a href="#"> <img src="logo image.png" alt="logo"></a>
         </div>
 
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
         <nav class="nav-bar">
             <a href="#home">Home</a>
-            <a href="#">About</a>
-            <a href="#">Education</a>
-            <a href="#">Skills</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
             <a href="#">Portfolio</a>
             <a href="#">Services</a>
             <a href="#">Contact</a>
         </nav>
     </header>
 
+    <!----------------===== Hero Section =====----------------->
     <section class="home" id="home">
-        <div class="information">
+        <div class="home-content">
             <h3>Hello, its Me</h3>
             <h1>Rizwan Ali</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius nisi tenetur doloribus molestias similique distinctio illum facilis unde quas reiciendis voluptatem, iste, assumenda voluptatibus ullam, ad earum esse harum suscipit?</p>
+            <div class="static-text">
+                <h3>And I'm a</h3>
+                <ul class="dynamic-text">
+                    <li><span>Front End Developer</span></li>
+                    <li><span>Web Designer</span></li>
+                    <li><span>Freelancer</span></li>
+                    <li><span>Data Entry Specialist</span></li>
+                </ul>
+            </div>
+            <p>
+                I am passionate about creating modern and responsive websites that bring ideas to life.
+                With creativity and technical skills, I focus on clean design, smooth functionality,
+                and seamless digital experiences.
+            </p>
+
+            <div class="social-icons">
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a href="Resume.pdf" class="btn" target="_blank">Download CV</a>
+        </div>
+
+        <div class="home-profile"></div>    
+    </section>
+
+    <!--------------===== About Section =====----------------->
+    <section class="about" id="about">
+        <div class="about-profile"></div>
+
+        <div class="about-content">
+            <h2>About <span>Me</span></h2>
+            <h4>Front End Developer | Web Designer | Data Entry Specialist</h4>
+            <p>
+                I’m Rizwan Ali — a passionate and creative professional who enjoys turning ideas into modern, responsive, and
+                user-friendly digital experiences.
+                I focus on designing clean, attractive interfaces and developing smooth, functional websites that leave a lasting
+                impression.
+                With a strong attention to detail and a love for learning, I strive to combine creativity and technical skill to
+                deliver projects that truly make an impact.
+                Whether it’s designing a website or organizing important data, I always aim to provide high-quality, reliable
+                results that help clients and businesses grow.
+            </p>
+
+                <a href="#" class="btn-box">More About Me</a>
+        </div>
+    </section>
+
+    <!--------------===== Education Section =====----------------->
+    <section class="education" id="education">
+        <h2>My <span>Journey</span></h2>
+        <div class="content">
+            <div class="education-content">
+                <h3><i class="fa-solid fa-book"></i> Education</h3>
+                <div class="content-box">
+                    <h5><i class="fa-solid fa-calendar-days"></i></i> Jan-2023-Dec-2026</h5>
+                    <h4>BBA-Shah Abdul Latif University Khairpur</h4>
+                    <p>
+                        Currently pursuing a BBA at Shah Abdul Latif University, Khairpur, with a focus on building strong business and management skills.
+                    </p>
+                </div>
+
+                <div class="content-box">
+                    <h5><i class="fa-solid fa-calendar-days"></i> Aug-2025-Aug-2026</h5>
+                    <h4>Modern Web and App Development - SMIT</h4>
+                    <p>
+                        Currently pursuing Modern Web and App Development at SMIT Sukkur, focusing on front-end, back-end, and mobile application development.
+                    </p>
+                </div>
+
+                <div class="content-box">
+                    <h5><i class="fa-solid fa-calendar-days"></i> Jan-2020-Dec-2022</h5>
+                    <h4>Intermediate - Govt : School</h4>
+                    <p>
+                        Completed Intermediate with an A1 grade, demonstrating strong academic performance and dedication.
+                    </p>
+                </div>
+            </div>
+
+            <div class="experience-content">
+            <h3><i class="fa-solid fa-briefcase"></i> Experience</h3>
+            <div class="content-box" id="box">
+                    <h5><i class="fa-solid fa-calendar-days"></i> Sep-2023-Present</h5>
+                    <h4>Data Entry Specialist - Upwork-Freelance</h4>
+                    <p>
+                        Helping businesses and professionals with fast, reliable, and accurate data entry services on Upwork. Experienced in handling spreadsheets, documents, and large datasets while ensuring quality and timely delivery. Dedicated to supporting clients with efficient freelance solutions.
+                    </p>
+                </div>
+                
+                <div class="content-box" id="box">
+                    <h5><i class="fa-solid fa-calendar-days"></i> Jan-2023-Dec-2026</h5>
+                    <h4>Sales & Marketing Intern - Suzuki Sukkur Motors</h4>
+                    <p>
+                       Assisted the sales and marketing team in developing promotional strategies, engaging with customers, and supporting dealership operations. Gained hands-on experience in market research, client communication, and sales process management at Suzuki Sukkur Motors.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--------------===== Skills Section =====----------------->
+    <section class="skills" id="skills">
+        <h2>My <span>Skills</span></h2>
+        <div class="skills-content">
+            <div class="skills-box">
+                <i class="fa-brands fa-html5"></i>
+                <h4>HTML 5</h4>
+            </div>
+            <div class="skills-box">
+                <i class="fa-brands fa-css3-alt"></i>
+                <h4>CSS 3</h4>
+            </div>
+            <div class="skills-box">
+                <i class="fa-brands fa-js"></i>
+                <h4>JavaScript</h4>
+            </div>
+            <div class="skills-box">
+                <i class="fa-brands fa-bootstrap"></i>
+                <h4>Bootstrap</h4>
+            </div>
+            <div class="skills-box">
+                <i class="fa-brands fa-microsoft"></i>
+                <h4>MS Office</h4>
+            </div>
+            <div class="skills-box">
+                <i class="fa-solid fa-file-excel"></i>
+                <h4>Spreadsheet</h4>
+            </div>
         </div>
     </section>
 </body>
