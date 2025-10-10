@@ -305,7 +305,6 @@
 
 /* ================ Responsive =================== */
 @media (max-width: 768px){
-/* ================ About Section =================== */
     .about{
         display: flex;
         flex-direction: column;
@@ -397,6 +396,9 @@
 }
 
 @media (max-width: 500px){
+    .services-content{
+        gap: 20px;
+    }
     .services-box{
     width: 160px;
     height: 260px;
@@ -408,5 +410,13 @@
 
     .services-box p{
         font-size: 10px;
+    }
+
+    .projects-container{
+        gap: 20px;
+    }
+    .project-content{
+        width: 100%;
+        height: auto;
     }
 }
