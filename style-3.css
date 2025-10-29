@@ -45,18 +45,16 @@
 
 .project-content img{
     width: 100%;
-    height: 100%;
+    height: auto;
     border-radius: 10px;
 }
 
 .contents{
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 10px;
+    padding: 20px 10px;
     text-align: center;
     flex-direction: column;
-    align-items: center;
     border-radius: 10px;
     position: absolute;
     gap: 20px;
@@ -169,6 +167,7 @@ button{
 
 button:hover{
     box-shadow: 0 0 20px white;
+    transform: scale(0.95);
 }
 
 /* ================ Footer =================== */
@@ -189,9 +188,9 @@ button:hover{
 }
 
 .contact-us h4{
-text-align: center;
-font-size: 25px;
-color: #0ef;
+    text-align: center;
+    font-size: 25px;
+    color: #0ef;
 }
 
 .contact-us i{
@@ -211,8 +210,8 @@ color: #0ef;
 }
 
 .quick-links h4{
-font-size: 25px;
-color: #0ef;
+    font-size: 25px;
+    color: #0ef;
 }
 
 .quick-links a{
@@ -236,8 +235,8 @@ color: #0ef;
 }
 
 .follow-us h4{
-font-size: 25px;
-color: #0ef;
+    font-size: 25px;
+    color: #0ef;
 }
 
 .follow-us a{
@@ -282,6 +281,7 @@ color: #0ef;
         max-width: 90%;
         height: 220px;
     }
+
 
     .contents p {
         font-size: 12px;
