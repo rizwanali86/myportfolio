@@ -269,7 +269,7 @@ nav a:hover{
 
     .static-text{
         margin-bottom: 5px;
-        font-size: 15px;
+        font-size: 14px;
     }
 
     
@@ -289,11 +289,15 @@ nav a:hover{
         height: 30px;
     }
 
-.dynamic-text li span{
+ .dynamic-text li span{
     position: relative;
     margin: 5px 0;
     line-height: 30px;
-}
+ }
+
+ .btn{
+    margin-bottom: 40px;
+ }
 
 @keyframes slide {
     100% {
