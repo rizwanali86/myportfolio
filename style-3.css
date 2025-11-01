@@ -304,10 +304,7 @@ button:hover{
         text-align: center;
         height: auto;
         gap: 30px;
-    }
-
-    .contact-us p{
-        font-size: 13px;
+        padding: 30px 60px;
     }
 
     .all {
