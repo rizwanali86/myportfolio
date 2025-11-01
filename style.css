@@ -253,7 +253,7 @@ nav a:hover{
         align-items: center;
         text-align: center;
         gap: 70px;
-        height: auto;
+        height: 100vh;
     }
 
     .home-content{
@@ -270,6 +270,7 @@ nav a:hover{
 
     .static-text{
         margin-bottom: 8px;
+        font-size: 15px;
     }
 
     
@@ -278,7 +279,7 @@ nav a:hover{
     }
 
     .home-content h3{
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .home-content p{
