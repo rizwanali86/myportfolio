@@ -306,6 +306,10 @@ button:hover{
         gap: 30px;
     }
 
+    .contact-us p{
+        font-size: 13px;
+    }
+
     .all {
     font-size: 12px;
 }

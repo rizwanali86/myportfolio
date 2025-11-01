@@ -230,7 +230,7 @@ nav a:hover{
         top: 60px;
         right: -100%;
         padding: 20px 0;
-        background: #081b29;
+        background: #112e42;
         flex-direction: column;
         width: 200px;
         text-align: center;
@@ -238,6 +238,7 @@ nav a:hover{
         transition: right 0.3s ease;
         z-index: 200;
         height: 100vh;
+        margin-right: 0;
     }
 
     #menu-toggle:checked + .menu-icon + .nav-bar {
@@ -265,6 +266,7 @@ nav a:hover{
         height: 200px;
         background-size: 180%;
         order: 1;
+        margin-top: 4rem;
     }
 
     .static-text{
@@ -279,6 +281,7 @@ nav a:hover{
 
     .home-content h3{
         font-size: 13px;
+        margin-top: 4px;
     }
 
     .home-content p{
@@ -296,7 +299,7 @@ nav a:hover{
  }
 
  .btn{
-    margin-bottom: 40px;
+    margin-bottom: 4rem;
  }
 
 @keyframes slide {
