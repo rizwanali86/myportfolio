@@ -238,7 +238,6 @@ nav a:hover{
         transition: right 0.3s ease;
         z-index: 200;
         height: 100vh;
-        margin-right: 0px;
     }
 
     #menu-toggle:checked + .menu-icon + .nav-bar {
@@ -253,7 +252,8 @@ nav a:hover{
         align-items: center;
         text-align: center;
         gap: 70px;
-        height: 100vh;
+        height: auto;
+        padding: 80px ;
     }
 
     .home-content{
